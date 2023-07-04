@@ -1,8 +1,10 @@
+/* ----------- GERAL ----------- */
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* ----------- HEAD ----------- */
 header {
     margin: 0px;
     padding: 0px;
@@ -15,8 +17,27 @@ header img{
     min-width: 600px;
 }
 
+/* ----------- MAIN ----------- */
+main {
+    display:block;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    max-width: 1200px;
+}
 
+.container {
 
+}
+
+.curriculo {
+
+}
+
+.portfolio {
+    
+}
+
+/* ---------- FOOTER ---------- */
 .footer {
     margin-top: -5px;
     display: flex;
