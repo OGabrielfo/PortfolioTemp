@@ -1,0 +1,73 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    background-color: rgba(26,26,26, 0.1);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.4);
+    transition: 0.3s;
+}
+
+.contato h1 {
+    text-align: center;
+}
+
+.campos .inputs {
+    margin: 0;
+    width: 95%;
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+}
+
+.campos textarea {
+    width: 95%;
+    min-height: 160px;
+    resize: vertical;
+}
+
+.campos .inputs::placeholder{
+	font-weight: 500;
+    font-size: 1.1rem;
+    color: #838788;
+    position: relative;
+    left: 0;
+}
+
+.campos .inputs:focus{
+    outline: 0;
+}
+
+.campos:has(> .inputs:focus) {
+    box-shadow: 0px 0px 8px #000;
+}
+
+.contato button {
+    font-weight: bold;
+    font-size: large;
+    align-self: center;
+    margin: 10px;
+    justify-self: center;
+    padding: 10px 30px;
+    background-color: rgba(26,26,26, 0.3);
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: none;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.4);
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: rgba(46, 46, 46, 0.5);
+}
