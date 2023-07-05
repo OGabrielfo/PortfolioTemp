@@ -19,22 +19,41 @@ header img{
 
 /* ----------- MAIN ----------- */
 main {
-    display:block;
+    display:flex;
+    flex-direction: column;
     margin: auto;
     padding: 20px 0px 20px 0px;
     max-width: 1200px;
 }
 
 .container {
-
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
 }
 
 .curriculo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 100%;
+}
 
+.curriculo section {
+    display: flex;
+    flex-direction: row;
 }
 
 .portfolio {
-    
+    display: flex;
+    flex-direction: row;
 }
 
 /* ---------- FOOTER ---------- */
