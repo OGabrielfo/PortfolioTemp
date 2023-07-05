@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
 /* ----------- GERAL ----------- */
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+html {
+    background-color: rgb(80, 80, 80);
+}
+
+.titulo {
+    font-family: 'Merienda', cursive;
+    font-weight: 800;
+    font-size: 1.5em;
+    padding: 5px;
 }
 
 /* ----------- HEAD ----------- */
@@ -32,7 +50,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -42,18 +61,40 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     width: 100%;
 }
 
 .curriculo section {
     display: flex;
     flex-direction: row;
+    background-color: rgba(240, 240, 240, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+}
+
+.curriculo section article {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 50%;
 }
 
 .portfolio {
     display: flex;
     flex-direction: row;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:rgba(240, 240, 240, 0.5);
+}
+
+.portfolio article {
+    padding: 5px;
+    width: 50%;
 }
 
 /* ---------- FOOTER ---------- */
