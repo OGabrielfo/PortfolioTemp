@@ -42,11 +42,21 @@ h2 {
     text-transform: uppercase;
     padding: 5px;
     color: var(--cor3);
-  
+}
+
+h3 {
+    font-family: 'Blinker', cursive;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: justify;
+    text-transform: uppercase;
+    padding: 5px;
+    color: var(--cor2);
 }
 
 p {
     text-align: justify;
+    text-indent: 2em;
 }
 
 a:link {
@@ -62,7 +72,6 @@ a:hover {
 }
 
 
-
 /* ----------- HEAD ----------- */
 header {
     margin: 0px;
@@ -72,7 +81,7 @@ header {
 
 header img{
     width: 100%;
-    min-height: 300px;
+    height: auto;
     min-width: 600px;
 }
 
@@ -108,6 +117,10 @@ main {
     width: 100%;
 }
 
+.curriculo div {
+    margin-left: 15px;
+}
+
 .curriculo section {
     display: flex;
     flex-direction: row;
@@ -126,9 +139,33 @@ main {
     color: var(--cor2);
 }
 
+.curriculo table {
+    margin-bottom: 15px;
+}
+
+.curriculo ul {
+    margin-bottom: 15px;
+
+}
+
+.curriculo li {
+    margin-left: 2em;
+    list-style-type: disc;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 33%;
+    text-align: center;
+}
+
 .portfolio {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 80%;
     border-radius: 5px;
     box-shadow: 5px 5px 5px var(--cor8);
@@ -156,6 +193,22 @@ main {
     height: 250px;
 }
 
+.portfolio div {
+    margin-left: 15px;
+}
+
+.portfolio div h3 {
+    margin-top: 15px;
+}
+
+.portfolio hr {
+    width:90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid var(--cor2);
+}
+
 /* ---------- FOOTER ---------- */
 .footer {
     margin-top: -5px;
@@ -172,7 +225,8 @@ main {
 
 
 .footer img {
-    min-width: 150px;
+    width: 100px;
+    padding: 0px 50px;
 }
 
 .column {
@@ -193,6 +247,7 @@ main {
 }
 
 .creditos {
+    text-indent: 0em;
     display: flex;
     justify-content: center;
     align-items: center;
